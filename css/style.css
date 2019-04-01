@@ -1,0 +1,437 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin:0;
+}
+
+ .current a:visited{
+    color: #009688;
+    text-decoration: underline
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width:auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #fff;
+    padding:15px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 100px;
+}
+
+nav h1{
+    margin-left: 100px;
+}
+
+nav a{
+    color: #282727;
+    display:block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: #009688;
+    text-decoration: underline
+}
+
+@media screen  and (min-width:768px)
+{
+    nav ul{
+        display:flex;
+    }
+        
+    nav li{
+       flex: 1 1 0;
+    }
+    
+    nav {
+        display:flex;
+        justify-content: space-between;
+       
+    }
+    
+    
+/**********************************SHOWCASE************************************************/
+    
+    #showcase{
+        width:100%;
+        background-image: url("../images/1.jpg");
+        height:400px;
+        background-size: cover;
+        opacity: 0.8;
+        position: relative;
+        
+    }
+    
+    .container_text{
+        position: absolute;
+        height:100px;  
+        color:white;
+        background-color: black;
+        width: 35%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        opacity: 0.9;
+        border-radius: 50px;
+        text-align: justify;
+    }
+    
+    .container_text h1{
+        text-align: center;
+        font-weight: bold;
+        padding:10px;
+        margin-top:10px;
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        color:white;
+    }
+    
+    .container_text p{
+        text-align: center;
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+        margin-top:-7px; 
+        
+    }
+    
+
+    /**********************************   FEATURES  ************************************************/
+    
+    #features{
+        margin:auto;
+        background-color: white;
+    }
+    
+    
+    .feature_container h1{
+        text-align:center;
+        font-size: 20px;        
+        padding:15px;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    .feature_container h3{
+        text-align:center;
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+        color: #708090 ;
+        margin-top:-15px;
+        margin-bottom: 20px;
+    }
+    
+    .feature_frame{
+        margin:0 auto;
+        width: 70%;
+    }
+    
+    .feature-upper{
+        margin:0 auto;
+        width: 100%;
+        height:200px;
+        padding:2px;
+        display: flex;
+        
+    }
+    
+    
+     .feature-lower{
+        margin:0 auto;
+        width: 100%;
+        height:200px;
+        padding:2px;
+        display: flex;
+        
+    }
+    
+      
+    .frame{
+        background-color: white;
+    }
+    
+     .icon{
+       width:100px;
+       margin:0 auto;      
+    }
+
+.icon i{
+   color:#009688;
+   font-size: 4em;
+   padding:10px;
+  
+}
+    
+ .frame h2{
+        font-size:16px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        padding:10px;
+    }
+    
+   .frame p{
+        font-size:14px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        padding:5px;
+        color: #708090 ;     
+
+    }
+    
+        
+@media screen  and (min-width:768px)
+{
+
+    
+   .frame {
+        justify-content: flex-start;
+        flex: 1 1 0;
+       
+    }
+  
+    
+    
+      /**********************************  INFO SECTION ************************************************/
+    
+    #info{
+        margin:0 auto;
+        display:flex;
+    }
+    
+    .info_container{    
+        background-color:#343d46;
+        width:100%;
+        height:450px;
+        display:flex;
+        
+    }
+    
+    .info_image{
+        width:50%;
+        height:350px;
+        background-image: url("../images/6.png");
+        background-repeat: no-repeat;
+        margin-top:50px;
+        margin-left: 250px;
+    }
+    
+    .info_detail{
+        width:50%;
+        height:350px;
+        margin-top:70px;
+        margin-right: 200px;
+        text-align:center;
+        color:white;
+    }
+    
+    .info_detail h1{
+       font-family: "Roboto", sans-serif;
+        font-size:28px;
+        padding:12px;
+    }
+    
+    .info_detail ul{
+         list-style-type: none;
+         padding: 5px;
+    }
+    
+    .info_detail li{
+        padding: 8px;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    
+     /**********************************  Company ************************************************/
+    
+    #company{
+        background-color: #525252;
+         margin:0 auto;
+         width:100%;
+         height:150px;
+    }   
+    
+    
+    .company_container{
+        width:70%;
+        margin: 0 auto;
+        display: flex;
+        text-align: justify;
+        color:white;
+        }
+    
+    .container h3{
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        margin-top:20px;
+        margin-bottom:10px;
+    }
+    
+   .container p{
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        padding:2px;
+    }
+    
+    form{
+        padding:5px;
+    }
+    
+    button {
+       background-color: black;
+       border: none;
+       color: white;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       margin: 4px 2px;
+       cursor: pointer;
+       padding: 3px;
+}
+  .container{
+        padding:10px;
+        flex: 1 1 0;
+        justify-content: flex-start;
+    }
+    
+  /**********************************  Company ************************************************/
+    
+    #main-footer{
+      background-color: #009688;  
+    }
+    
+    .footer_container{
+        padding:10px;
+        text-align: center;
+        color:white;
+        font-family: "Roboto", sans-serif;
+        font-size:13px;
+    }
+    
+    
+     /********************************** MAIN PAGE || || ABOUT US ************************************************/
+    
+    
+    #Mainpage{
+        width:100%;
+        background-color: white;
+    }
+    
+    .page_content{
+        text-align: center;
+        width:70%;
+        margin:0 auto;
+        padding:30px; 
+    }
+    
+    .page_content h1{
+        margin-bottom:10px;
+    }
+    
+    .page_content p{
+        margin-bottom:3px;
+        text-align: justify;
+        color: #525252;  
+        
+    }
+    
+    .page_content hr{
+        margin:25px auto;
+        
+    }
+    
+    /**************************************** MAIN PAGE || SERVICES ******************/
+    .content_text{
+        width:85%;
+        margin:0 auto;
+        padding:5px;
+    }
+    
+    .text_one{
+        background-color:#33313b;
+        padding:2px;
+    }
+    
+    .text_two{
+        background-color:#009688;
+          padding:2px;
+    }
+    
+    .text_three{
+        background-color:#33313b;
+        padding:2px;
+    }
+    
+    .service_text{
+        color:blue;
+        font-size:13px;
+        margin-top:15px;
+         text-align:center;
+         margin-bottom:15px;
+    }
+    
+   .content_text h1{
+        color:white;
+        font-size:17px;
+        margin-top:10px;
+    }
+    
+     
+    
+  
+    
+    /**************************************** MAIN PAGE || CONTACT ******************/
+    .contact_form{
+        width:70%;
+        margin: 0 auto;
+        background-color:#33313b;
+    }
+     
+    .page_content p{
+       margin-top:20px; 
+       color:#33313b;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .contact_form p{
+        text-align: center;
+        color:white;
+        font-size:12px;
+    }
+    
+    .contact_form button{
+        width:270px;
+    }
+    
+    /**********************************  SUB HEADER ************************************************/
+    
+    
+    #subheader{
+        width:100%;
+         background-color:#33313b;
+    }
+    
+    .sub_container{
+        color:white;
+       padding:20px;
+       margin-left:100px;
+    }
+    
+    
+        
+        
+ /********************************** MAIN PAGE  ************************************************/
+        
+       
